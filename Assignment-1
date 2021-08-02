@@ -1,4 +1,5 @@
-/*Samantha and Vikas are looking to buy a house in a new development.
+/**
+Samantha and Vikas are looking to buy a house in a new development.
 After looking at various models the three models they like are colonial,
 splitentry, and single-story. The builder gave them the base price and the
 finished area in square feet of the three models. They want to know the
@@ -40,13 +41,16 @@ public class Main {
 
     }
 
-/*Write a program that prompts the user to input the x-y
+/**
+Write a program that prompts the user to input the x-y
 coordinate of a
 point in a Cartesian plane. The program should then output
 a message
 indicating whether the point is the origin, is located on the
 x- (or y-) axis, or appears in a particular quadrant.
 */
+
+
 import java.util.*;
 class Main {
     static void quadrant(int x, int y) {
