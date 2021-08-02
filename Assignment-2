@@ -1,9 +1,11 @@
-/*The formula for computing the number of ways of choosing ‘r’ different
+/**
+The formula for computing the number of ways of choosing ‘r’ different
 things from a set of ‘n’ things is the define as C(n, r) = n!/(r! * (n – r)!).
 Write a method, static double com(int n, int r) to find the value of the
 C(n, r). This method further invokes a recursive method, static int fac(int
 n). Here, method static int fac(int n) recursively finds factorial of a
-number passed as an argument. Write the complete program.*/
+number passed as an argument. Write the complete program.
+*/
 
 Import java.util.*;
 class Main {
@@ -26,9 +28,11 @@ class Main {
     }
 }
 
-/*Write a program to find Pi value using following series (up-to
+/**
+Write a program to find Pi value using following series (up-to
 n terms) using method.
-𝑝𝑖 = 4 − 43⁄ + 45⁄ − 47⁄ + 49⁄ − 411⁄+⋯*/
+𝑝𝑖 = 4 − 43⁄ + 45⁄ − 47⁄ + 49⁄ − 411⁄+⋯
+*/
 
 import java.util.Scanner;
 public class Main {
