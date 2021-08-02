@@ -1,0 +1,41 @@
+/*Samantha and Vikas are looking to buy a house in a new development.
+After looking at various models the three models they like are colonial,
+splitentry, and single-story. The builder gave them the base price and the
+finished area in square feet of the three models. They want to know the
+price per square foot of the three models and the model with the least price
+per square foot. Write a program that accepts as input the base price and
+the finished area in square feet of the three models. The program outputs
+the price per square foot of the three models and the model with the least
+price per square foot.
+
+*/
+
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] arg) {
+        Scanner nav = new Scanner(System.in);
+        double base, area1, area2, area3, price1, price2, price3;
+        String s = " ";
+        System.out.println("\tPlease enter your houses base price for it's model : $");
+        base = nav.nextInt();
+        System.out.println("\tPlease now enter that house's 1 total sqft : ");
+        area1 = nav.nextInt();
+        System.out.println("\tPlease now enter that house's 2 total sqft:");
+        area2 = nav.nextInt();
+        System.out.println("\tPlease now enter that house's 3total sqft :");
+        area3 = nav.nextInt();
+        price1 = base / area1;
+        price2 = base / area2;
+        price3 = base / area3;
+        if (price1 < price2 && price1 < price3) {
+            s = "house 1";
+            System.out.println("min price :" + s);
+        }
+        if (price3 < price2 && price3 < price2) {
+            s = "house 2";
+            System.out.println("min price :+s);}
+            }
+        }
+
+    }
