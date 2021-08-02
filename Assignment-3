@@ -1,8 +1,10 @@
 
 
-/**Java Program to Sort the Array in an
+/**
+Java Program to Sort the Array in an
 Ascending Order and Descending Order
-using method*/
+using method
+*/
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
